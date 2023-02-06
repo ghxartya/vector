@@ -493,8 +493,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 1.771vw 3.385vw 1.406vw 2.396vw;
-    filter: drop-shadow(0vw 5.208vw 4.167vw rgba(0, 0, 0, 0.07)) drop-shadow(0vw 2.176vw 1.741vw rgba(0, 0, 0, 0.0503198)) drop-shadow(0vw 1.163vw 0.931vw rgba(0, 0, 0, 0.0417275)) drop-shadow(0vw 0.652vw 0.522vw rgba(0, 0, 0, 0.035)) drop-shadow(0vw 0.346vw 0.277vw rgba(0, 0, 0, 0.0282725)) drop-shadow(0vw 0.144vw 0.115vw rgba(0, 0, 0, 0.0196802));
-    -webkit-filter: drop-shadow(0vw 5.208vw 4.167vw rgba(0, 0, 0, 0.07)) drop-shadow(0vw 2.176vw 1.741vw rgba(0, 0, 0, 0.0503198)) drop-shadow(0vw 1.163vw 0.931vw rgba(0, 0, 0, 0.0417275)) drop-shadow(0vw 0.652vw 0.522vw rgba(0, 0, 0, 0.035)) drop-shadow(0vw 0.346vw 0.277vw rgba(0, 0, 0, 0.0282725)) drop-shadow(0vw 0.144vw 0.115vw rgba(0, 0, 0, 0.0196802));
+    box-shadow: 0vw 5.208vw 4.167vw rgba(0, 0, 0, 0.07), 0vw 2.176vw 1.741vw rgba(0, 0, 0, 0.0503198), 0vw 1.163vw 0.931vw rgba(0, 0, 0, 0.0417275), 0vw 0.652vw 0.522vw rgba(0, 0, 0, 0.035), 0vw 0.346vw 0.277vw rgba(0, 0, 0, 0.0282725), 0vw 0.144vw 0.115vw rgba(0, 0, 0, 0.0196802);
 }
 
 .partners__box #partners-box-content {
@@ -938,6 +937,7 @@ img {
     padding: 1.198vw 2.240vw 1.719vw 1.302vw;
     background-color: var(--light-color);
     border-radius: 0.521vw;
+    box-shadow: 0vw 3.802vw 5.677vw rgba(0, 0, 0, 0.17), 0vw 1.146vw 1.711vw rgba(0, 0, 0, 0.11077), 0vw 0.476vw 0.711vw rgba(0, 0, 0, 0.085), 0vw 0.172vw 0.257vw rgba(0, 0, 0, 0.0592299);
 }
 
 .contacts__form-text {
