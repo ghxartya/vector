@@ -883,7 +883,7 @@ img {
 .contacts {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 33.438vw;
     padding: 9.792vw 13.802vw 6.510vw 6.771vw;
     display: flex;
     justify-content: space-between;
