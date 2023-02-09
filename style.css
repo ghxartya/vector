@@ -1242,18 +1242,15 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .footer__quickLinks-links #footer-quickLinks-links-group {
-    width: 100%;
+    width: 50%;
+    height: 4.8vw;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-.footer__quickLinks-links #footer-quickLinks-links-group:last-child {
-    margin-top: 1.635vw;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .footer__quickLinks-subheading {
