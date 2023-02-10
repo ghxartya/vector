@@ -1481,9 +1481,3 @@ img {
     width: 19.1vw;
     color: var(--light-color);
 }
-
-@media screen and (min-height: 864px) {
-    .fillingOutTheForm {
-        height: 100vh;
-    }
-}
