@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
-    <title>Цифровий Друк | Вектор</title>
+    <title>Технічні Вимоги | Вектор</title>
 </head>
 <body>
     <div class="wrapper">
@@ -27,9 +27,9 @@
                     </div>
                 </div>
                 <div class="header__nav-link" id="header-nav-link-dropdown">
-                    <a href="./drukarnya.html" id="link-active">Друкарня</a>
+                    <a href="./drukarnya.html">Друкарня</a>
                     <div id="header-nav-link-dropdown-menu">
-                        <a href="#" id="dropdown-link-active">Цифровий Друк</a>
+                        <a href="./drukarnya-digital-printing.html">Цифровий Друк</a>
                         <a href="./drukarnya-offset-printing.html">Офсетний Друк</a>
                         <a href="./drukarnya-wide-format-printing.html">Широкоформатний Друк</a>
                     </div>
@@ -41,15 +41,15 @@
                 <a href="https://dcready.vercel.app" target="_blank" id="dcready">
                     <img src="./images/made_by_dcready.png" alt="D&C Ready!" />
                 </a>
-                <a id="link-on-button" href="./technical-requirements.html">
+                <a id="link-on-button" class="link-button-active" href="#">
                     <button class="header__button-item">Технічні Вимоги</button>
                 </a>
             </div>
         </header>
         <main class="main">
-            <section class="fillingOutTheForm">
+            <section class="technicalRequirements">
                 <svg
-                    id="fillingOutTheForm-ring-left"
+                    id="technicalRequirements-ring-left"
                     width="30.833vw"
                     height="24.323vw"
                     viewBox="0 0 592 467"
@@ -90,7 +90,7 @@
                     </defs>
                 </svg>
                 <svg
-                    id="fillingOutTheForm-ring-right"
+                    id="technicalRequirements-ring-right"
                     width="33.333vw"
                     height="26.302vw"
                     viewBox="0 0 640 505"
@@ -130,136 +130,7 @@
                         </linearGradient>
                     </defs>
                 </svg>
-                <div class="fillingOutTheForm__content">
-                    <pre class="fillingOutTheForm__content-heading">Lorem ipsum dolor sit<br />amet consectetur.</pre>
-                    <pre class="fillingOutTheForm__content-middleheading">Lorem ipsum dolor sit amet consectetur. Leo risus<br />urna ac vel mauris bibendum aliquam.<br />Nisi egestas congue lacus sit.<br />Lorem ipsum dolor sit amet consectetur. Leo risus<br />urna ac vel mauris bibendum aliquam.<br />Nisi egestas congue lacus sit.</pre>
-                </div>
-                <div class="fillingOutTheForm__form">
-                    <pre class="fillingOutTheForm__form-text">Заповніть будь ласка анкету</pre>
-                    <div id="fillingOutTheForm-form-fields">
-                        <div id="fillingOutTheForm-form-fields-group">
-                            <div id="fillingOutTheForm-form-fields-field">
-                                <div id="fillingOutTheForm-form-fields-field-info">
-                                    <pre class="fillingOutTheForm__form-label">ПІБ</pre>
-                                    <svg
-                                        id="field-required"
-                                        width="0.313vw"
-                                        height="0.313vw"
-                                        viewBox="0 0 6 6"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M0.755859 4.85156L1.93359 3.23438L0.164062 2.70703L0.439453 1.82812L2.20898 2.47852L2.15625 0.462891H3.04688L2.98828 2.51367L4.73438 1.86328L5.00391 2.75977L3.20508 3.29297L4.35938 4.88086L3.63281 5.42578L2.54883 3.73828L1.48828 5.38477L0.755859 4.85156Z"
-                                            fill="#D24E4E"
-                                        />
-                                    </svg>
-                                </div>
-                                <input
-                                    required
-                                    class="fillingOutTheForm__form-input"
-                                    type="text"
-                                    placeholder="Прізвище / Ім'я / по Батькові"
-                                />
-                            </div>
-                            <div id="fillingOutTheForm-form-fields-field">
-                                <div id="fillingOutTheForm-form-fields-field-info">
-                                    <pre class="fillingOutTheForm__form-label">Номер телефону</pre>
-                                    <svg
-                                        id="field-required"
-                                        width="0.313vw"
-                                        height="0.313vw"
-                                        viewBox="0 0 6 6"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M0.755859 4.85156L1.93359 3.23438L0.164062 2.70703L0.439453 1.82812L2.20898 2.47852L2.15625 0.462891H3.04688L2.98828 2.51367L4.73438 1.86328L5.00391 2.75977L3.20508 3.29297L4.35938 4.88086L3.63281 5.42578L2.54883 3.73828L1.48828 5.38477L0.755859 4.85156Z"
-                                            fill="#D24E4E"
-                                        />
-                                    </svg>
-                                </div>
-                                <input
-                                    required
-                                    class="fillingOutTheForm__form-input"
-                                    type="text"
-                                    placeholder="+38 (0??) ???-??-??"
-                                />
-                            </div>
-                            <div id="fillingOutTheForm-form-fields-field">
-                                <div id="fillingOutTheForm-form-fields-field-info">
-                                    <pre class="fillingOutTheForm__form-label">Місто</pre>
-                                    <svg
-                                        id="field-required"
-                                        width="0.313vw"
-                                        height="0.313vw"
-                                        viewBox="0 0 6 6"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M0.755859 4.85156L1.93359 3.23438L0.164062 2.70703L0.439453 1.82812L2.20898 2.47852L2.15625 0.462891H3.04688L2.98828 2.51367L4.73438 1.86328L5.00391 2.75977L3.20508 3.29297L4.35938 4.88086L3.63281 5.42578L2.54883 3.73828L1.48828 5.38477L0.755859 4.85156Z"
-                                            fill="#D24E4E"
-                                        />
-                                    </svg>
-                                </div>
-                                <input
-                                    required
-                                    class="fillingOutTheForm__form-input"
-                                    type="text"
-                                    placeholder="Ваше місто проживання"
-                                />
-                            </div>
-                        </div>
-                        <div id="fillingOutTheForm-form-fields-group">
-                            <div id="fillingOutTheForm-form-fields-field">
-                                <div id="fillingOutTheForm-form-fields-field-info">
-                                    <pre class="fillingOutTheForm__form-label">Категорія</pre>
-                                    <svg
-                                        id="field-required"
-                                        width="0.313vw"
-                                        height="0.313vw"
-                                        viewBox="0 0 6 6"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M0.755859 4.85156L1.93359 3.23438L0.164062 2.70703L0.439453 1.82812L2.20898 2.47852L2.15625 0.462891H3.04688L2.98828 2.51367L4.73438 1.86328L5.00391 2.75977L3.20508 3.29297L4.35938 4.88086L3.63281 5.42578L2.54883 3.73828L1.48828 5.38477L0.755859 4.85156Z"
-                                            fill="#D24E4E"
-                                        />
-                                    </svg>
-                                </div>
-                                <div class="fillingOutTheForm__form-select">
-                                    <input
-                                        required
-                                        value="Цифровий Друк"
-                                        type="text"
-                                        placeholder="Оберіть категорію"
-                                    />
-                                    <div>
-                                        <span id="fillingOutTheForm-form-select-arrow"></span>
-                                    </div>
-                                    <div id="fillingOutTheForm-form-select-menu">
-                                        <p id="select-item-active">Цифровий Друк</p>
-                                        <p>Офсетний Друк</p>
-                                        <p>Широкоформатний Друк</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="fillingOutTheForm-form-fields-field" class="fillingOutTheForm-form-fields-field-before-button">
-                                <div id="fillingOutTheForm-form-fields-field-info">
-                                    <pre class="fillingOutTheForm__form-label">Коментар</pre>
-                                </div>
-                                <input
-                                    class="fillingOutTheForm__form-input"
-                                    type="text"
-                                    placeholder="За бажанням, залиште коментар"
-                                />
-                            </div>
-                            <input type="submit" value="Готово" class="fillingOutTheForm__form-button" />
-                        </div>
-                    </div>
-                </div>
+                <div></div>
             </section>
         </main>
         <footer class="footer">
@@ -276,7 +147,7 @@
                     <div class="footer__quickLinks-links">
                         <div id="footer-quickLinks-links-group">
                             <a href="./home.html" class="footer__quickLinks-link">Головна</a>
-                            <a href="./about-us.html" class="footer__quickLinks-link">Про нас</a>
+                            <a href="#" class="footer__quickLinks-link">Про нас</a>
                         </div>
                         <div id="footer-quickLinks-links-group">
                             <a href="./vidavnitstvo.html" class="footer__quickLinks-link">Видавництво</a>

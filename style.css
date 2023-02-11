@@ -87,6 +87,11 @@ a[id="link-active"]::after {
     border-radius: 0.521vw;
 }
 
+.link-button-active > button {
+    color: var(--accent-color);
+    background-color: var(--light-color);
+}
+
 img {
     width: 100%;
 }
@@ -284,7 +289,7 @@ img {
 .header__button-item {
     cursor: pointer;
     border: none;
-    width: 10.417vw;
+    width: 12.417vw;
     height: 2.604vw;
     font-weight: 600;
     color: var(--light-color);
@@ -1264,7 +1269,38 @@ img {
 
 /*
 
-    12. FOOTER
+    12. TECHNICAL REQUIREMENTS
+
+*/
+
+.technicalRequirements {
+    position: relative;
+    width: 100%;
+    height: 33.438vw;
+    padding: 8.792vw 10.208vw 6.510vw 10.208vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--main-color);
+}
+
+#technicalRequirements-ring-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#technicalRequirements-ring-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/*
+
+    13. FOOTER
 
 */
 
