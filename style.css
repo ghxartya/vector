@@ -640,13 +640,9 @@ img {
     margin-right: 0.313vw;
 }
 
-#reviewsCards-item-top-info>div>#reviews-rating-star:not(:last-child) {
+#reviewsCards-item-top-info>div>svg:not(:last-child) {
     margin-right: 0.313vw;
 }
-
-/* #reviewsCards-item-top-info > div > #reviews-rating-star-disabled {
-    fill: transparent;
-} */
 
 .reviewsCards__item-text {
     font-weight: 600;
