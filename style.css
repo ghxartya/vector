@@ -1313,7 +1313,7 @@ img {
 
 .technicalRequirements__content-line {
     width: 20%;
-    height: 0.25vw;
+    height: 0.35vw;
     border-radius: 0.521vw;
     background-color: var(--accent-color);
     margin: 2.5vw auto;
