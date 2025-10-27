@@ -295,7 +295,7 @@ img {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background: url("https://res.cloudinary.com/dcready/image/upload/v1675374721/vector/bg.png") no-repeat;
+    background: url("./images/bg.png") no-repeat;
     background-size: cover;
 }
 
@@ -708,7 +708,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("https://res.cloudinary.com/dcready/image/upload/v1675374721/vector/bg.png") no-repeat;
+    background: url("./images/bg.png") no-repeat;
     background-size: cover;
 }
 
